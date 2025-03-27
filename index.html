@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="codigo.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/adicionar">
+        <label for="NombreVideojuego"> Nombre del Videojuego</label>
+        <input type="text" id ="NombreVideojuego">
+        <label for="PrecioVideojuego"> Precio del Videojuego</label>
+        <input type="text" id ="PrecioVideojuego">
+        <label for="PlataformaVideojuego"> Plataforma del Videojuego</label>
+        <input type="text" id ="PlataformaVideojuego">
+        <label for="CategoriaVideojuego"> Categoria del Videojuego</label>
+        <input type="text" id ="CategoriaVideojuego">
+        <label for="EditorVideojuego"> Editor del Videojuego</label>
+        <input type="text" id ="EditorVideojuego">
+        <input type="submit" onclick="adicionar()" value="Aceptar" >
+    </form>
+    <form action="/buscar">
+        <label for="NombreVideojuegoB"> Nombre del Videojuego </label>
+        <input type="text" id="NombreVideojuegoB">
+        <input type="submit" onclick="buscar()" value="Buscar">
+    </form>
+    <form action="/ingresar">
+        <label for="Usuario"> Usuario </label>
+        <input type="text" id="Usuario">
+        <label for="Contraseña"> Contraseña</label>
+        <input type="submit" onclick="ingresar()" value="Ingresar">
+    </form>
+    <form action="registro">
+        <label for="Usuarioa"> Usuario </label>
+        <input type="text" id="Usuario">
+        <label for="Contraseñaa"> Contraseña</label>
+        <input type="submit" onclick="registro()" value="regitrar">
+    </form>
+    <form action=""></form>
+</body>
+</html>
