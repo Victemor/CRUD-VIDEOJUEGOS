@@ -3,7 +3,7 @@ var cors = require('cors');
 var serverless = require('serverless-http');
 var port = process.env.PORT || 5000;
 var app = express();
-var jugadoresroutes = require("../../backend/routes/jugdoresroutes.js");
+var jugadoresroutes = require("../../backend/routes/jugdorroutes.js");
 app.use(express.json());
 app.use(cors());
 
